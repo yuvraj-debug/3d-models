@@ -1,0 +1,22 @@
+/**
+ * 3D Robot Component - Default Styles
+ */
+
+.robot-3d-container,
+robot-3d {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  height: 480px;
+  margin: 0 auto;
+  overflow: hidden;
+  user-select: none;
+}
+
+.robot-3d-container canvas,
+robot-3d canvas {
+  width: 100% !important;
+  height: 100% !important;
+  outline: none;
+}
